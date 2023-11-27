@@ -59,11 +59,23 @@ Note: The files 'cameraSpectralResponse.mat,' 'mask.mat,' and 'mask_3d_shift.mat
 
 ```shell
 python test.py --gpu_id=0 --weight_path=./ckpts/In2SET_2stg.pth
+
+python test.py --gpu_id=0 --weight_path=./ckpts/In2SET_3stg.pth
+
+python test.py --gpu_id=0 --weight_path=./ckpts/In2SET_5stg.pth
+
+python test.py --gpu_id=0 --weight_path=./ckpts/In2SET_9stg.pth
 ```
 
 3. 2 Test inference time
 ```shell
 python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_2stg.pth
+
+python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_3stg.pth
+
+python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_5stg.pth
+
+python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_9stg.pth
 ```
 
 #### 4. This repo is mainly based on MST and rTVRA.  In our experiments, we use the following repos:
