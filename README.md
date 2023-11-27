@@ -77,7 +77,7 @@ python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_5stg.pth
 
 python test_fps.py --gpu_id=0 --weight_path=./ckpts/In2SET_9stg.pth
 ```
-
+Note: Due to size limitations for direct uploads on GitHub, our 9stg model is provided in three compressed parts: ckpts/In2SET_9stg.zip.001, ckpts/In2SET_9stg.zip.002, ckpts/In2SET_9stg.zip.003. Please use joint extraction for decompression.
 #### 4. This repo is mainly based on MST and rTVRA.  In our experiments, we use the following repos:
 (1) MST: https://github.com/caiyuanhao1998/MST
 
