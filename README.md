@@ -1,4 +1,4 @@
-#### This is the demo code of our paper "In2SET: Intra-Inter Similarity Exploiting Transformer for Dual-Camera Compressive Hyperspectral Imaging" in submission to CVPR 2024.
+#### This is the demo code of our paper "In2SET" in submission to CVPR 2024.
 
 This repo includes:  
 
